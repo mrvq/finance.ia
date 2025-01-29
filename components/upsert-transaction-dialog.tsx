@@ -43,7 +43,7 @@ import {
 import { DatePicker } from "./ui/date-picker";
 import { DialogClose } from "@radix-ui/react-dialog";
 import { z } from "zod";
-import { upsertTransaction } from "@/app/_actions/add-transaction";
+import { upsertTransaction } from "@/app/_actions/upsertTransaction";
 
 interface UpsertTransactionDialog {
   isOpen: boolean;

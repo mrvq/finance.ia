@@ -1,12 +1,11 @@
 import Navbar from "@/components/navbar";
-import { auth } from "@clerk/nextjs/server";
-import { redirect } from "next/navigation";
+//import { auth } from "@clerk/nextjs/server";
 
 const Home = async () => {
-  const { userId } = await auth();
-  if (!userId) {
-    redirect("/login");
-  }
+  //const { userId } = await auth();
+  //if (!userId) {
+  // redirect("/login");
+  // }
   return <Navbar />;
 };
 export default Home;

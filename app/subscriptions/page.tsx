@@ -1,6 +1,12 @@
 import Navbar from "@/components/navbar";
 
-const SubscriptionPage = () => {
+const SubscriptionPage = async () => {
+  //const { userId } = await auth();
+
+  //if (!userId) {
+  //return redirect("/login");
+  //}
+
   return <Navbar />;
 };
 
