@@ -3,8 +3,8 @@
 import { useState } from "react";
 
 import { PencilIcon } from "lucide-react";
-import { Button } from "@/components/ui/button";
-import UpsertTransactionDialog from "@/components/upsert-transaction-dialog";
+import { Button } from "@/app/_components/ui/button";
+import UpsertTransactionDialog from "@/app/_components/upsert-transaction-dialog";
 import { Transaction } from "@prisma/client";
 
 interface EditTransactionButtonProps {
